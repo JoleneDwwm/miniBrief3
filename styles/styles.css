@@ -17,7 +17,6 @@ header{
 body{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    display: block;
     justify-content: center;
 }
 footer{
@@ -31,8 +30,10 @@ a{
     color: rgb(255, 255, 255);
 }
 .flip{
-    width: 500px; 
-    height: 750px;
+    width: 300px; 
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto; 
     border-radius: 12.5px;
     padding: 1rem;
 }
@@ -66,9 +67,9 @@ a{
     color: black;
     transform: rotateY(180deg);
 }
-@media(min-width:800px){
+@media(min-width:1200px){
     .flip{
-        width: 750px; 
-        height: 500px; 
+        width: 1200px; 
+        height: 800px; 
     }
 }
