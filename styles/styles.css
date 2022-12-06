@@ -24,3 +24,14 @@
 .flipJKPM__card__back{
     transform: rotateY(180deg);
 }
+.desktopJKPM{
+    display: none;
+}
+@media(min-width:576px){
+    .mobileJKPM{
+        display: none;
+    }
+    .desktopJKPM{
+        display: contents;
+    }
+}
