@@ -1,8 +1,12 @@
 body{
-    padding-top: 200px;
+    padding-top: 175px;
 }
 .repere {
     border:2px solid red;
+}
+.cardJKPM{
+    width: 350px; 
+    height: 600px; 
 }
 .flipJKPM{
     width: 300px; 
@@ -32,7 +36,6 @@ body{
 }
 .hide{
     display: none;
-    transition-duration: 25ms;
 }
 @media(min-width:576px){
     .mobileJKPM{
@@ -40,5 +43,18 @@ body{
     }
     .desktopJKPM{
         display: contents;
+    }
+}
+@media(min-width:992px){
+    h3{
+        padding-left: 5rem;
+    }
+    .cardJKPM{
+        width: 800px; 
+        height: 600px; 
+    }
+    .flipJKPM{
+        width: 800px; 
+        height: 650px;  
     }
 }
