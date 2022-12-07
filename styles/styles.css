@@ -1,3 +1,6 @@
+body{
+    padding-top: 200px;
+}
 .repere {
     border:2px solid red;
 }
@@ -26,6 +29,10 @@
 }
 .desktopJKPM{
     display: none;
+}
+.hide{
+    display: none;
+    transition-duration: 25ms;
 }
 @media(min-width:576px){
     .mobileJKPM{
